@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>svg</title>
+    <link rel="stylesheet" type="text/css" href="big5.css">
+    <div style = "background: whitesmoke;">
+        <div class="navbar">
+            <div class="main">
+                <a href="index.html">Home</a>
+                <a href="introduction.html">Introduction</a>
+                <a href="visual_analytics.html">Visual Analytics</a>
+                <a href="svg.html">SVG</a>
+
+            </div></div>
+</head>
+        <div style = " text-align: center;color:white; background: gray; ">
+            <h1>Fikirte Demmese: My Personality Trait Average Score</h1>
+        </div>
+<body>
+<svg width="600" height="400" >
+                <!--------Bar----------!>
+    <g class="bar">
+     <rect width="365" height="50" x="50" y="30"/>
+    <rect width="395" height="50" x="50" y="90"/>
+    <rect width="290" height="50" x="50" y="150"/>
+    <rect width="300" height="50" x="50" y="210"/>
+    <rect width="250" height="50" x="50" y="270" />
+</g>
+    <!--------Horizontal top line------
+        <line x1="0" y1="20" x2="600" y2="20" stroke="red" stroke-dasharray="5"/>
+    <!--------vertical line-----
+
+     <line  x1="40" y1="20" x2="40" y2="330"  />- -----!>
+     <line  x1="50" y1="20" x2="50" y2="330"  />
+     <line  x1="100" y1="20" x2="100" y2="330" />
+     <line  x1="150" y1="20" x2="150" y2="330" />
+     <line  x1="200" y1="20" x2="200" y2="330"/>
+     <line  x1="250" y1="20" x2="250" y2="330" />
+     <line  x1="300" y1="20" x2="300" y2="330" />
+     <line  x1="350" y1="20" x2="350" y2="330" />
+     <line  x1="400" y1="20" x2="400" y2="330" />
+     <line  x1="450" y1="20" x2="450" y2="330" />
+     <line  x1="500" y1="20" x2="500" y2="330" />
+     <line  x1="550" y1="20" x2="550" y2="330" />
+
+        <!--------vertical label----------!>
+    <g class="ylable">
+        <text dy=12 x="40" y="55">O</text>
+        <text dy=12 x="40" y="115">C</text>
+        <text dy=12 x="40" y="175">E</text>
+        <text dy=12 x="40" y="235">A</text>
+        <text dy=12 x="40" y="305">N</text>
+    </g>
+    <!--------Horizontal  bottom line----------!>
+    <line x1="0" y1="330" x2="600" y2="330" stroke="red" stroke-dasharray="5"/>
+    <!--------Horizontal bottom label----------!>
+     <g  class="xlable">
+        <text dy="15" x="50" y="340">0</text>
+        <text x="100" y="340">10</text>
+        <text dy="15" x="150" y="340">20</text>
+        <text dy="15" x="200" y="340">30</text>
+        <text dy="15" x="250" y="340">40</text>
+         <text dy="15" x="300" y="340">50</text>
+         <text dy="15" x="350" y="340">60</text>
+         <text dy="15" x="400" y="340">70</text>
+         <text dy="15" x="450" y="340">80</text>
+         <text dy="15" x="500" y="340">90</text>
+         <text dy="15" x="550" y="340">100</text>
+     </g>
+    <!--------Horizontal top label-------
+    <g  class="xlable">
+        <text x="50" y="15">50</text>
+        <text x="100" y="15">100</text>
+        <text x="150" y="15">150</text>
+        <text x="200" y="15">200</text>
+        <text x="250" y="15">250</text>
+        <text x="300" y="15">300</text>
+        <text x="350" y="15">350</text>
+        <text x="400" y="15">400</text>
+        <text x="450" y="15">450</text>
+        <text x="500" y="15">500</text>
+        <text x="550" y="15">550</text>
+    </g>---!>
+    <!--------vertical Bar label----------!>
+    <g class="bar">
+        <text dy=12 x="420" y="55">73%</text>    <!--  50+365+5= 420 --!>
+        <text dy=12 x="450" y="115">79%</text>     <!--  50+395+5= 450 --!>
+        <text dy=12 x="345" y="175">58%</text>     <!--  50+290+5= 345 --!>
+        <text dy=12 x="355" y="235">60%</text>     <!--  50+300+5= 355 --!>
+        <text dy=12 x="305" y="305">50%</text>     <!--  50+250+5=345 --!>
+    </g>
+</svg>
+<h2>Openness</h2>
+<p>
+    Openness describes a person’s tendency to think in abstract, complex ways. <br/><mark>High scorers</mark> tend to be
+    creative, adventurous, and intellectual. They enjoy playing with ideas and discovering novel experiences.
+   <br/> <mark>Low scorers </mark>tend to be practical, conventional, and focused on the concrete. They tend to avoid the
+    unknown and follow traditional ways.</p>
+<h2>Conscientiousness </h2>
+<p>
+    Conscientiousness describes a person’s ability to exercise self-discipline and control in order to pursue
+    their goals. <br/><mark>High scorers</mark> are organized and determined, and are able to forego immediate gratification for
+    the sake of long-term achievement.<br/> <mark>Low scorers</mark> are impulsive and easily sidetracked.</p>
+<h2>Extraversion </h2>
+<p>
+    Extraversion describes a person’s inclination to seek stimulation from the outside world, especially in the
+    form of attention from other people. <br/><mark>Extraverts</mark> engage actively with others to earn friendship,
+    admiration, power, status, excitement, and romance. <br/><mark>Introverts,</mark>> on the other hand, conserve their energy,
+    and do not work as hard to earn these social rewards. </p>
+<h2>Agreeableness </h2>
+<p>
+    Agreeableness describes a person’s tendency to put others’ needs ahead of their own, and to cooperate
+    rather than compete with others.<br/> People who are <mark>high in Agreeableness experience </mark> great deal of
+    empathy and tend to get pleasure out of serving and taking care of others. They are usually trusting and
+    forgiving.<br/>
+    People who are low in Agreeableness tend to experience less empathy and put their own concerns ahead
+    of others. <br/><mark>Low scorers </mark> are often described as hostile, competitive, and antagonistic. They tend to have
+    more conflictual relationships and often fall out with people.</p>
+<h2>Neuroticism</h2>
+<p>
+    Neuroticism describes a person’s tendency to experience negative emotions, including fear, sadness,
+    anxiety, guilt, and shame. While everyone experiences these emotions from time to time, some people
+    are more prone to them than others.<br/>
+    <mark>High Neuroticism scorers</mark> are more likely to react to a situation with fear, anger, sadness, and
+    the like. <br/><mark>Low Neuroticism scorers</mark> are more likely to brush off their misfortune and move on.</p>
+</body>
+</html>
