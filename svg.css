@@ -1,0 +1,36 @@
+.body
+{ font-family:"DejaVu Sans Light";
+}
+.pol {
+    fill: lightgray;
+    stroke: black;
+    stroke-width: 5;
+   stroke-opacity:  1;
+}
+
+.cir{
+    fill: black;
+    stroke: black;
+}
+.gcir{
+    fill:gray ;
+    stroke: black;
+    stroke-width: 5;
+    opacity: 1;
+}
+.gbod{
+    fill: slategray;
+    stroke: black;
+}
+.lin {
+    fill: black;
+    stroke: black;
+    stroke-width: 25;
+    stroke-opacity: 1;
+}
+.blin {
+    fill: black;
+    stroke: black;
+    stroke-width: 5;
+    stroke-opacity: 0.2;
+}
